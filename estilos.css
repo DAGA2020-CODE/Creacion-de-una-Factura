@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Encabezados */
+h2 {
+    background-color: #004080;
+    color: white;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Tablas con estilos profesionales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Diferentes estilos para cada tabla */
+.tabla-empresa, .tabla-cliente {
+    border: 2px solid #004080;
+    background-color: #e0f2f1;
+}
+
+.tabla-productos {
+    border: 2px solid #006400;
+    background-color: #f1f8e9;
+}
+
+.tabla-adicional {
+    border: 2px dashed #8b0000;
+    background-color: #fff3e0;
+}
+
+/* Bordes de celdas */
+td, th {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Encabezados de la tabla de productos */
+thead th {
+    background-color: #004080;
+    color: white;
+}
+
+/* Alineación para los totales */
+.text-right {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Mejoras visuales */
+section {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
