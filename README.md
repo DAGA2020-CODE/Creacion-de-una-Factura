@@ -1,1 +1,1 @@
-subir y publicar mi sitio web
+Actualizado para desplegar en Azure
